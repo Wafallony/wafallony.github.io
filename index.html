@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wafa M. Ibrahim — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== AMBIENT BACKGROUND ===== -->
+  <div class="aero-bg" aria-hidden="true">
+    <div class="bubble-field" id="bubbleField"></div>
+    <div class="star s1">✦</div>
+    <div class="star s2">✦</div>
+    <div class="star s3">✦</div>
+    <div class="star s4">✦</div>
+    <div class="star s5">✦</div>
+    <div class="glow-orb orb1"></div>
+    <div class="glow-orb orb2"></div>
+    <div class="glow-orb orb3"></div>
+  </div>
+
+  <!-- ===== NAV ===== -->
+  <header class="navwrap">
+    <nav class="glass-nav" id="mainNav">
+      <a href="#home" class="nav-logo">
+        <span class="droplet-dot"></span> Wafa<span class="dim">Mohammad ibrahim</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#design">My design</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+<!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-drop">
+      <p class="eyebrow">Multilingual creator · biology student</p>
+      <h1 class="hero-title">Wafa M. Ibrahim</h1>
+      <p class="hero-sub">Translator &amp; creative writer, weaving stories across <strong>English, Arabic, Turkish &amp; Persian</strong>, with 8+ years self-taught in After&nbsp;Effects and Photoshop.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">See my work</a>
+        <a href="#contact" class="btn btn-ghost">Say hello</a>
+      </div>
+    </div>
+
+    <!-- The big hero orb IS the music player -->
+    <div class="hero-orb-wrap">
+      <div class="hero-orb" id="musicToggle" role="button" tabindex="0" aria-pressed="false" aria-label="Play or pause background music">
+        <div class="orb-shine"></div>
+        <div class="orb-ripple"></div>
+
+        <div class="music-content">
+          <svg id="playIcon" viewBox="0 0 20 20" width="32" height="32"><path fill="currentColor" d="M8 5v14l11-7z"></path></svg>
+          <svg id="pauseIcon" viewBox="0 0 20 20" width="32" height="32" style="display:none"><path fill="currentColor" d="M6 5h4v14H6zM14 5h4v14h-4z"></path></svg>
+          
+          <div class="music-info">
+            <p class="music-title">LEASE</p>
+            <p class="music-artist">Takeshi Abo</p>
+          </div>
+        </div>
+
+        <audio id="bgAudio" loop preload="none">
+          <source src="LEASE.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section">
+    <div class="section-head">
+      <h2>About me</h2>
+      <p class="section-lede">A little more than a resume.</p>
+    </div>
+
+    <div class="glass-panel about-panel">
+      <p>I don't really like putting myself into one category.</p>
+      <ul class="identity-list">
+        <li>A biology student who likes writing.</li>
+        <li>A writer who likes science.</li>
+        <li>A multilingual person who likes storytelling.</li>
+        <li>A video editor who likes psychology.</li>
+        <li>And someone who can spend hours researching something completely random just because it caught my attention.</li>
+      </ul>
+      <p>I'm still figuring out exactly where all of these interests will take me ... But that's also what I like about them. There's always something new to learn, make, write, edit, or obsess over.</p>
+      <p class="welcome-line">Welcome to my little corner of the internet :3 </p>
+    </div>
+
+    <div class="curious-panel glass-panel">
+      <h3>Currently curious about</h3>
+      <div class="chip-row">
+        <span class="chip">Biology</span>
+        <span class="chip">Forensic science</span>
+        <span class="chip">Psychology</span>
+        <span class="chip">Poetry &amp; creative writing</span>
+        <span class="chip">Graphic desgins &amp; video editing </span>
+        <span class="chip">Character psychology</span>
+        <span class="chip">Languages &amp; translation</span>
+        <span class="chip">Storytelling &amp; worldbuilding</span>
+        <span class="chip">Creative ideas &amp; concept development</span>
+      </div>
+    </div>
+
+    <!-- EDUCATION + EXPERIENCE -->
+    <div class="two-col">
+      <div class="glass-panel">
+        <h3>Education</h3>
+        <div class="timeline-item">
+          <p class="timeline-title">B.Sc. General Biology <span class="tag">In progress</span></p>
+          <p class="timeline-sub">Bolu Abant İzzet Baysal University</p>
+          <p class="timeline-date">Expected graduation: 2028</p>
+        </div>
+      </div>
+      <div class="glass-panel">
+        <h3>Experience</h3>
+        <div class="timeline-item">
+          <p class="timeline-title">Freelance Video Editor <span class="tag">2017 – Present</span></p>
+          <p class="timeline-sub">Personal Projects</p>
+          <p>8+ years of self-taught editing, anime edits, motion graphics, and short-form videos.</p>
+        </div>
+        <div class="timeline-item">
+          <p class="timeline-title">Creative Writer &amp; Translator</p>
+          <p>Developed original fiction and character, and translated content between English, Arabic, Turkish and Persian.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="two-col">
+      <div class="glass-panel">
+        <h3>Technical skills</h3>
+        <div class="skill-grid">
+          <span class="chip chip-blue">Adobe After Effects</span>
+          <span class="chip chip-blue">Adobe Photoshop</span>
+          <span class="chip chip-blue">Video Editing</span>
+          <span class="chip chip-blue">Motion Graphics</span>
+          <span class="chip chip-blue">Visual Effects (VFX)</span>
+          <span class="chip chip-blue">Photo Editing</span>
+          <span class="chip chip-blue">Short-form Content</span>
+          <span class="chip chip-blue">Microsoft Word / Excel</span>
+          <span class="chip chip-blue">Google Docs / Sheets / Slides</span>
+        </div>
+      </div>
+      <div class="glass-panel">
+        <h3>Professional skills</h3>
+        <div class="skill-grid">
+          <span class="chip chip-pink">Communication</span>
+          <span class="chip chip-pink">Attention to Detail</span>
+          <span class="chip chip-pink">Critical &amp; Creative Thinking</span>
+          <span class="chip chip-pink">Problem Solving</span>
+          <span class="chip chip-pink">Adaptability</span>
+          <span class="chip chip-pink">Research Skills</span>
+          <span class="chip chip-pink">Content Creation</span>
+          <span class="chip chip-pink">Translation</span>
+          <span class="chip chip-pink">Cultural Research</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- LANGUAGES -->
+    <div class="glass-panel">
+      <h3>Languages</h3>
+      <div class="lang-row">
+        <div class="lang-bubble">English</div>
+        <div class="lang-bubble">Arabic</div>
+        <div class="lang-bubble">Persian</div>
+        <div class="lang-bubble">Turkish</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WORK / PORTFOLIO ===== -->
+  <section id="work" class="section">
+    <div class="section-head">
+      <h2>My work</h2>
+      <p class="section-lede">Videos, novels, translations &amp; edits</p>
+    </div>
+
+    <!-- VIDEOS -->
+    <div class="glass-panel">
+      <h3>Videos, Open each vid + Contact For More <3 (yes jxveal is me) </h3>
+      <p class="hint">
+      <div class="media-grid">
+        <div class="media-card">
+          <video controls poster="" preload="none">
+            <source src="AOT.mp4" type="video/mp4">
+          </video>
+          <p class="media-caption"></p>
+        </div>
+        <div class="media-card">
+          <video controls poster="" preload="none">
+            <source src="tokyo.mp4" type="video/mp4">
+          </video>
+          <p class="media-caption"></p>
+        </div>
+        <div class="media-card">
+          <video controls poster="" preload="none">
+            <source src="yae.mp4" type="video/mp4">
+          </video>
+          <p class="media-caption"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOVELS / TRANSLATIONS / PDFS -->
+    <div class="glass-panel">
+      <h3>Novels, translations &amp; writing</h3>
+      <p class="hint"></p>
+      <div class="doc-grid">
+        <a class="doc-card" href="Aslan -.pdf" target="_blank" rel="noopener">
+          <span class="doc-title"> Orginal Character</span>
+          <span class="doc-sub">PDF · click to open</span>
+        </a>
+        <a class="doc-card" href="Scripts ETC.pdf" target="_blank" rel="noopener">
+          <span class="doc-title">Scripts/ Ideas</span>
+          <span class="doc-sub">PDF · click to open</span>
+        </a>
+        <a class="doc-card" href="Translation.pdf" target="_blank" rel="noopener">
+          <span class="doc-title">Translations/ Poem </span>
+          <span class="doc-sub">PDF · click to open</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<!-- ===== DESIGN / PHOTO ===== -->
+  <section id="design" class="section">
+    <div class="section-head">
+      <h2>My design</h2>
+      <p class="section-lede"> Click the Image to see the full pic :3 .</p>
+    </div>
+    <div class="glass-panel">
+      <div class="image-grid">
+        <figure class="img-card">
+          <a href="Don't Give In To Nostalgia.png" target="_blank" rel="noopener">
+            <img src="Don't Give In To Nostalgia.png" alt="Design piece 1" loading="lazy">
+          </a>
+          <figcaption>Design 01</figcaption>
+        </figure>
+        <figure class="img-card">
+          <a href="Hanni Pham.png" target="_blank" rel="noopener">
+            <img src="Hanni Pham.png" alt="Design piece 2" loading="lazy">
+          </a>
+          <figcaption>Design 02</figcaption>
+        </figure>
+        <figure class="img-card">
+          <a href="Cookie.png" target="_blank" rel="noopener">
+            <img src="Cookie.png" alt="Design piece 3" loading="lazy">
+          </a>
+          <figcaption>Design 03</figcaption>
+        </figure>
+        <figure class="img-card">
+          <a href="jazz menu finalll.png" target="_blank" rel="noopener">
+            <img src="jazz menu finalll.png" alt="Design piece 4" loading="lazy">
+          </a>
+          <figcaption>Design 04</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER / CONTACT ===== -->
+  <footer id="contact" class="footer">
+    <div class="glass-panel footer-panel">
+      <h2>Let's talk</h2>
+      <p class="section-lede">Translation, edits, ETC :p my inbox is open.</p>
+      <div class="contact-row">
+        <a class="contact-pill" href="mailto:wafa2004hema@gmail.com">wafa2004hema@gmail.com</a>
+        <a class="contact-pill" href="https://www.linkedin.com/in/wafa-m-ibrahim-62804042b" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+      <p class="footer-note">© <span id="year"></span> Wafa M. Ibrahim. Made with the LOVE for frutiger aero <3 .</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.getElementById('mainNav');
+    menuToggle.addEventListener('click', () => mainNav.classList.toggle('open'));
+    mainNav.querySelectorAll('.nav-links a').forEach(a =>
+      a.addEventListener('click', () => mainNav.classList.remove('open'))
+    );
+
+    // Nav background on scroll
+    const navwrap = document.querySelector('.navwrap');
+    window.addEventListener('scroll', () => {
+      navwrap.classList.toggle('scrolled', window.scrollY > 30);
+    });
+
+    // Music play/pause toggle
+    const audio = document.getElementById('bgAudio');
+    const toggleBtn = document.getElementById('musicToggle');
+    const playIcon = document.getElementById('playIcon');
+    const pauseIcon = document.getElementById('pauseIcon');
+
+    function toggleMusic() {
+      if (audio.paused) {
+        audio.play().catch(() => {
+          alert('Add your audio file at audio/song.mp3 to enable playback.');
+        });
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'inline';
+        toggleBtn.classList.add('playing');
+        toggleBtn.setAttribute('aria-pressed', 'true');
+      } else {
+        audio.pause();
+        playIcon.style.display = 'inline';
+        pauseIcon.style.display = 'none';
+        toggleBtn.classList.remove('playing');
+        toggleBtn.setAttribute('aria-pressed', 'false');
+      }
+    }
+    toggleBtn.addEventListener('click', toggleMusic);
+    toggleBtn.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); toggleMusic(); }
+    });
+
+    // Generate floating ambient bubbles
+    const bubbleField = document.getElementById('bubbleField');
+    const bubbleCount = 22;
+    for (let i = 0; i < bubbleCount; i++) {
+      const b = document.createElement('div');
+      b.className = 'bubble';
+      const size = 8 + Math.random() * 46;
+      b.style.width = size + 'px';
+      b.style.height = size + 'px';
+      b.style.left = Math.random() * 100 + 'vw';
+      b.style.animationDuration = (12 + Math.random() * 18) + 's';
+      b.style.animationDelay = (Math.random() * 20) + 's';
+      b.style.opacity = (0.15 + Math.random() * 0.35).toFixed(2);
+      bubbleField.appendChild(b);
+    }
+
+    // Footer year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll reveal for panels
+    const revealTargets = document.querySelectorAll('.glass-panel, .section-head');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+    revealTargets.forEach(el => io.observe(el));
+  </script>
+</body>
+</html>
